@@ -18,13 +18,13 @@ module "spoke_dev_vnet" {
 }
 
 
-module "peer_dev_to_hub" {
-  source = "../../modules/peering"
-  name   = "peer-dev-to-hub"
+# module "peer_dev_to_hub" {
+#   source = "../../modules/peering"
+#   name   = "peer-dev-to-hub"
 
-  resource_group_name   = "rg-dev"
-  vnet_name             = module.spoke_dev_vnet.name
-  remote_vnet_id        = "<hub-vnet-id>"
-  use_remote_gateways   = true
-  allow_gateway_transit = false
-}
+#   resource_group_name   = "rg-dev"
+#   vnet_name             = module.spoke_dev_vnet.name
+#   remote_vnet_id        = "<hub-vnet-id>"
+#   use_remote_gateways   = true
+#   allow_gateway_transit = false
+# }

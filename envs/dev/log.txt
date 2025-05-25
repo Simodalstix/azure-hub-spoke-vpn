@@ -1,0 +1,40 @@
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mUnsupported argument[0m
+[31m│[0m [0m
+[31m│[0m [0m[0m  on main.tf line 8, in module "spoke_dev_vnet":
+[31m│[0m [0m   8:   [4mname[0m                = "vnet-spoke-dev"[0m
+[31m│[0m [0m
+[31m│[0m [0mAn argument named "name" is not expected here.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mUnsupported argument[0m
+[31m│[0m [0m
+[31m│[0m [0m[0m  on main.tf line 9, in module "spoke_dev_vnet":
+[31m│[0m [0m   9:   [4maddress_space[0m       = ["10.10.0.0/16"][0m
+[31m│[0m [0m
+[31m│[0m [0mAn argument named "address_space" is not expected here.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mUnsupported argument[0m
+[31m│[0m [0m
+[31m│[0m [0m[0m  on main.tf line 10, in module "spoke_dev_vnet":
+[31m│[0m [0m  10:   [4mlocation[0m            = azurerm_resource_group.dev.location[0m
+[31m│[0m [0m
+[31m│[0m [0mAn argument named "location" is not expected here.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mUnsupported argument[0m
+[31m│[0m [0m
+[31m│[0m [0m[0m  on main.tf line 11, in module "spoke_dev_vnet":
+[31m│[0m [0m  11:   [4mresource_group_name[0m = azurerm_resource_group.dev.name[0m
+[31m│[0m [0m
+[31m│[0m [0mAn argument named "resource_group_name" is not expected here.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mUnsupported argument[0m
+[31m│[0m [0m
+[31m│[0m [0m[0m  on main.tf line 13, in module "spoke_dev_vnet":
+[31m│[0m [0m  13:   [4msubnets[0m = {[0m
+[31m│[0m [0m
+[31m│[0m [0mAn argument named "subnets" is not expected here.
+[31m╵[0m[0m
